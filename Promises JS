@@ -1,0 +1,17 @@
+const arr =[1,2,3,4];
+
+
+
+const isEven = arr.filter(arr => arr % 2 === 0 );
+
+const Task = new Promise (function(resolve,reject){
+  if(arr.length>0){
+    resolve(isEven);
+  }
+  else{
+    reject("OOPS not even!\n");
+  }
+  
+});
+isEven.then() 
+
